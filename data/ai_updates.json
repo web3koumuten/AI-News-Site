@@ -1,0 +1,324 @@
+{
+  "tools": [
+    {
+      "id": "8f3adff664fd",
+      "name": "世界的YouTuber「MrBeast」さん、公開した「AIサムネイルツール」の提供取りやめ X上での反発受け",
+      "description": "世界的なYouTuberと知られる「MrBeast」さんは、クリエイター向けに公開した「AIサムネイルツール」の提供を取りやめると発表した。",
+      "category": "ai_general",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2506/28/news031.html",
+      "logo": null,
+      "features": [],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-28T08:00:00+09:00"
+    },
+    {
+      "id": "94053db3bfaf",
+      "name": "Google、バーチャルAI試着アプリ「Doppl」をiOS/Androidで公開(まずは米国で)",
+      "description": "Googleは、実験的なバーチャル試着アプリ「Doppl」を米国で公開した。Google I/Oで披露された生成AI技術を活用し、ユーザーが自身の全身写真をアップロードするだけで、オンライン上の衣服を仮想的に試着できる。短い動画生成機能も備える。",
+      "category": "technology",
+      "url": "https://www.itmedia.co.jp/news/articles/2506/28/news035.html",
+      "logo": null,
+      "features": [],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-28T06:48:00+09:00"
+    },
+    {
+      "id": "809531aacfd5",
+      "name": "山岡家「AWSに障害が起きても、麺は茹でられる」 生成AI「Bedrock」を麺茹でに活用中",
+      "description": "生成AI「Amazon Bedrock」を麺茹でに活用していることで話題の「ラーメン山岡家」は、「AWSに障害が起きたても麺は茹でられる」と述べた。",
+      "category": "ai_general",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2506/27/news088.html",
+      "logo": null,
+      "features": [
+        "Stick」(サッポロ相棒)導入 Amazon Bedrockベースに構築 サッポロホールディングスは2月3日、サッポログループ全社員約6000名を対象に、生成AIツール「SAPPORO AI"
+      ],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T16:26:00+09:00"
+    },
+    {
+      "id": "e45f9138c41a",
+      "name": "YouTubeも検索結果を“AI要約” 複数動画の見どころ表示、説明文やタイトルも生成 米国で",
+      "description": "米YouTubeは、AIを活用した検索結果の要約機能を追加したと発表した。検索ワードに応じ、複数の動画のハイライトをスライド形式で強調表示。同日より米国の有料会員「Premium」ユーザー向けに、スマートフォンアプリで提供する。",
+      "category": "ai_general",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2506/27/news068.html",
+      "logo": null,
+      "features": [
+        "ハイライトをタップすると動画ページに移動(2/"
+      ],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T12:22:00+09:00"
+    },
+    {
+      "id": "008e46920af4",
+      "name": "Anthropicが日本法人を設立 「日本のために、日本と共に」",
+      "description": "Anthropicが2025年秋にも日本法人を設立することが分かった。同社が語る日本法人設立の目的とミッションとは。",
+      "category": "technology",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2506/27/news059.html",
+      "logo": null,
+      "features": [
+        "ジェンセン氏(出典:筆者撮影) Amazon Web Services(AWS)が開催した「AWS Summit Japan 2025」の基調講演に登壇したケイト"
+      ],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T11:00:00+09:00"
+    },
+    {
+      "id": "ff4a3bfdbe1e",
+      "name": "Anthropic、AIの「感情的利用」調査結果を公開 対策も提示",
+      "description": "Anthropicは、AI「Claude」の感情的な利用に関する調査結果を公開した。感情的な会話は全体の約3%と稀だが、内容は多岐にわたる。会話を通じてユーザーの感情が肯定的になる傾向が見られるが、AIを専門家の代替とはせず、安全対策を進める。",
+      "category": "ai_general",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2506/27/news057.html",
+      "logo": null,
+      "features": [],
+      "pricing": {
+        "type": "free",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T08:49:00+09:00"
+    },
+    {
+      "id": "38c1cd512f7e",
+      "name": "人とテクノロジーの融合でシナジー創出 ドコモ・ファイナンス「BPOセンター」の戦略は?",
+      "description": "生成AIを活用した業務の効率化も進む中、コンタクトセンターの現場で起こるリアルな課題や、次世代コンタクトセンターの構想をドコモ・ファイナンスのBPOセンター長に聞いた。",
+      "category": "technology",
+      "url": "https://www.itmedia.co.jp/business/articles/2506/27/news044.html",
+      "logo": null,
+      "features": [
+        "維持コストが高く、人手不足も起きやすいため、運営面での負担などには課題がある。 NTTドコモの金融中核会社ドコモ",
+        "ファイナンス BPOセンター長の島田明典(しまだ",
+        "あきのり)氏 ドコモグループ入り どんなシナジーが生まれた? ドコモ",
+        "インバウンド業務 ローンに関する申し込み操作や返済相談、本人確認、不正利用の確認といった顧客からの問い合わせ対応業務。 ("
+      ],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T08:00:00+09:00"
+    },
+    {
+      "id": "b2f07aff7f54",
+      "name": "「現時点のエージェント型AIの多くはROIをもたらさない」 ガートナーが厳しく指摘するその根拠は?",
+      "description": "ガートナージャパンは、2027年末までにエージェント型AIプロジェクトの40%以上が中止されるとの見解を発表した。",
+      "category": "technology",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2506/27/news030.html",
+      "logo": null,
+      "features": [],
+      "pricing": {
+        "type": "free",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T08:00:00+09:00"
+    },
+    {
+      "id": "ea3f6d369cac",
+      "name": "生成AIの業務活用 どこにどれだけ投資する?「投資要件」判断のフレームワーク",
+      "description": "生成AIの業務活用の推進担当者は、まず自社の予算をどこにどう割り当てるのが「正解」なのでしょうか。企業内実践をリードする専門家が実践を通じて見つけた「生成AI導入推進プロジェクトの考え方」をお伝えします。",
+      "category": "technology",
+      "url": "https://www.itmedia.co.jp/enterprise/articles/2506/19/news016.html",
+      "logo": null,
+      "features": [],
+      "pricing": {
+        "type": "free",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T08:00:00+09:00"
+    },
+    {
+      "id": "eb0e9a0a3d70",
+      "name": "NVIDIAに商機も フアン氏が提唱「ソブリンAI」って? 各国が熱視線のワケ",
+      "description": "ジェンスン・フアン最高経営責任者(CEO)が2023年から提唱する「ソブリンAI」。欧州で今、同理念に熱いまなざしが注がれている。",
+      "category": "technology",
+      "url": "https://www.itmedia.co.jp/business/articles/2506/27/news032.html",
+      "logo": null,
+      "features": [
+        "保有するべきだ」――。 これは「ソブリンAI」と呼ばれる理念で、画像処理装置(GPU)世界大手の米NVIDIA(エヌビディア)のジェンスン"
+      ],
+      "pricing": {
+        "type": "free",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T07:00:00+09:00"
+    },
+    {
+      "id": "7e0e28da455b",
+      "name": "クリエイティブ・コモンズ、AIの健全な発展目指し「CC Signals」提案",
+      "description": "クリエイティブ・コモンズが、AI学習におけるコンテンツ利用の意思表示フレームワーク「CC Signals」を発表。クリエイターが利用を制限するのではなく、「クレジット表記」や「寄付」などの見返りを表明できる仕組み。健全なAIエコシステムの発展を目指す。",
+      "category": "ai_general",
+      "url": "https://www.itmedia.co.jp/news/articles/2506/27/news056.html",
+      "logo": null,
+      "features": [],
+      "pricing": {
+        "type": "free",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T06:55:00+09:00"
+    },
+    {
+      "id": "fb7e1661fa41",
+      "name": "[Matplotlib超入門:pyplot編]DataFrameから箱ひげ図を描く方法と、pandas搭載のグラフ機能との比較",
+      "description": "箱ひげ図ってうまく使うと便利ですよね。でも、Matplotlibとpandasでは箱ひげ図をプロットする方法が幾つもあるんです。その辺を中心に、Matplotlibでグラフを描くのか、pandasでやるのか。そんなことを考えてみましょう。",
+      "category": "ai_general",
+      "url": "https://atmarkit.itmedia.co.jp/ait/articles/2506/27/news016.html",
+      "logo": null,
+      "features": [
+        "データサイエンスの学びをここから 初心者向け、データ分析",
+        "Pythonの勉強方法 @ITのDeep Insiderで学ぼう Copyright© Digital Advantage Corp. All Rights Reserved.",
+        "13 Matplotlib"
+      ],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-27T05:00:00+09:00"
+    },
+    {
+      "id": "4a75c28facd4",
+      "name": "“AI禁止”の「ホットペッパービューティ」でも使えるとうたいAIモデル画像販売、Xで物議に 「行き過ぎた表現」と販売元",
+      "description": "AIモデル画像の掲載を禁止している「ホットペッパービューティ」でも使える――こんなうたい文句で美容室向けにAIモデル画像を販売する事業者の存在が、Xで物議を醸している。",
+      "category": "ai_general",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2506/26/news114.html",
+      "logo": null,
+      "features": [],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-26T17:26:00+09:00"
+    },
+    {
+      "id": "048612e7d13c",
+      "name": "映像処理用RTLコードを5分で生成、シャープ開発の高位合成ツール",
+      "description": "シャープは、映像データ処理用AI半導体デバイス設計に向け、PythonコードからRTLコードを短時間で生成できる「高位合成ツール」を開発、オープンソースソフトウェア(OSS)として公開した。",
+      "category": "technology",
+      "url": "https://eetimes.itmedia.co.jp/ee/articles/2506/26/news033.html",
+      "logo": null,
+      "features": [
+        "ワイヤレスと大阪大学、情報通信研究機構(NICT)は、遅延時間を従来の50分の1に短縮できる「ポスト5G対応半導体チップ」を共同開発した。産業分野におけるローカル5Gの普及を視野に入れており、マグナ",
+        "374TOPS/Wであった。GPU搭載のPCでは"
+      ],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-26T12:10:00+09:00"
+    },
+    {
+      "id": "92c86c5b0470",
+      "name": "AWS、Google、MicrosoftらがAIエージェント連携のため「Agent2Agentプロジェクト」設立 Linux Foundation傘下で",
+      "description": "異なるベンダが提供する複数のAIエージェント間でのコミュニケーションやコラボレーションを実現するオープンスタンダード確立のための「Agent2Agentプロジェクト」(A2Aプロジェックト)設立を、Linux Foundationが発表しました。",
+      "category": "ai_general",
+      "url": "https://www.itmedia.co.jp/news/articles/2506/26/news079.html",
+      "logo": null,
+      "features": [],
+      "pricing": {
+        "type": "free",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-26T11:55:00+09:00"
+    },
+    {
+      "id": "02306f7b0ef3",
+      "name": "Anthropic、Claude内でノーコードアプリ開発を可能に アーティファクト機能がベース",
+      "description": "Anthropicは、AIチャット「Claude」内でAIアプリを直接構築、ホスト、共有できる機能をβ版で発表した。自然言語で指示するだけでClaudeがコーディングし、対話的にデバッグや改善が可能。完成したアプリはリンクで簡単に共有できる。",
+      "category": "ai_general",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2506/26/news074.html",
+      "logo": null,
+      "features": [],
+      "pricing": {
+        "type": "freemium",
+        "startingPrice": null
+      },
+      "updatedAt": "2025-06-26T11:29:00+09:00"
+    }
+  ],
+  "news": [
+    {
+      "id": "d9ebf8d9370f",
+      "title": "「三国志」に学ぶ生成AIの導入推進 「推進派」「反対派」「無関心派」の勢力争い、その攻略法は?",
+      "summary": "企業における生成AI導入が進む中、企業内には生成AIに対して「推進派」「反対派」「無関心派」の三つの勢力が存在する。現代の三国志ともいえる状況で、AI活用を推進していくにはどうすればいいか。三国志の歴史に倣い、考える。",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2506/27/news018.html",
+      "publishedAt": "2025-06-27T12:00:00+09:00",
+      "category": "ai_general",
+      "imageUrl": null,
+      "tags": [
+        "Generative AI"
+      ]
+    },
+    {
+      "id": "ee033ad65d7a",
+      "title": "Anthropic、読みは「アンソロピック」? 「アンスロピック」?",
+      "summary": "大規模言語モデル「Claude」シリーズなどで知られる米AIベンチャーAnthropic。日本では「アンスロピック」とも「アンソロピック」とも読まれ、大手メディア間でも表記が揺れている。正しい読み方はどちらか。",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/news/articles/2506/27/news061.html",
+      "publishedAt": "2025-06-27T11:30:00+09:00",
+      "category": "ai_general",
+      "imageUrl": null,
+      "tags": [
+        "Claude",
+        "Gemini",
+        "LLM",
+        "Generative AI"
+      ]
+    },
+    {
+      "id": "15dc2e4c5748",
+      "title": "芥川賞作家が「95%AIで書いた」小説、全プロンプトをWeb公開",
+      "summary": "芥川賞作家の九段理恵さんが「95%生成AIで書いた」という短編小説「影の雨」と、執筆に使ったというプロンプト全文が、博報堂が発行する雑誌「広告」のWebサイトで公開された。",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2506/26/news100.html",
+      "publishedAt": "2025-06-26T14:44:00+09:00",
+      "category": "ai_general",
+      "imageUrl": null,
+      "tags": [
+        "ChatGPT",
+        "Generative AI"
+      ]
+    },
+    {
+      "id": "6dd6bfeb57af",
+      "title": "AIは強化学習で“人間のだまし方”を学ぶ──RLHFの副作用、海外チームが24年に報告 「正解っぽい回答」を出力",
+      "summary": "中国の清華大学や米UCバークレー、米Anthropicなどに所属する研究者らは2024年、強化学習による言語モデルの訓練が、予期せぬ副作用として人間を誤導する能力の向上をもたらすという懸念すべき現象を実証的に確認した研究報告を発表した。",
+      "source": "ITmedia AI+",
+      "url": "https://www.itmedia.co.jp/aiplus/articles/2506/26/news037.html",
+      "publishedAt": "2025-06-26T12:00:00+09:00",
+      "category": "technology",
+      "imageUrl": null,
+      "tags": [
+        "Claude",
+        "Gemini",
+        "LLM"
+      ]
+    }
+  ],
+  "lastUpdated": "2025-06-28T15:35:23.756128+09:00",
+  "metadata": {
+    "totalArticles": 20,
+    "toolsCount": 16,
+    "newsCount": 4,
+    "sources": [
+      "itmedia",
+      "ai_scholar",
+      "ledge_ai",
+      "ainow",
+      "ascii_ai",
+      "nikkei_ai"
+    ],
+    "timeWindow": "72h",
+    "generatedAt": "2025-06-28T15:35:23.756161+09:00"
+  }
+}

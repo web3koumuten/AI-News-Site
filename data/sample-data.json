@@ -1,0 +1,76 @@
+{
+  "tools": [
+    {
+      "id": "1",
+      "name": "Claude",
+      "description": "Advanced AI assistant by Anthropic with strong reasoning capabilities and helpful, harmless, and honest responses.",
+      "category": "AI Assistant",
+      "url": "https://claude.ai",
+      "features": ["Long context window", "Code generation", "Creative writing", "Analysis"],
+      "pricing": {
+        "type": "freemium",
+        "startingPrice": "$20/month"
+      },
+      "updatedAt": "2024-01-15"
+    },
+    {
+      "id": "2",
+      "name": "Midjourney",
+      "description": "AI-powered image generation tool that creates stunning artwork from text prompts.",
+      "category": "Image Generation",
+      "url": "https://midjourney.com",
+      "features": ["High-quality images", "Artistic styles", "Upscaling", "Variations"],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": "$10/month"
+      },
+      "updatedAt": "2024-01-14"
+    },
+    {
+      "id": "3",
+      "name": "GitHub Copilot",
+      "description": "AI pair programmer that helps you write code faster with intelligent code suggestions.",
+      "category": "Code Assistant",
+      "url": "https://github.com/features/copilot",
+      "features": ["Code completion", "Multi-language support", "Context awareness", "Documentation"],
+      "pricing": {
+        "type": "paid",
+        "startingPrice": "$10/month"
+      },
+      "updatedAt": "2024-01-13"
+    }
+  ],
+  "news": [
+    {
+      "id": "1",
+      "title": "OpenAI Announces GPT-5 Development Timeline",
+      "summary": "OpenAI reveals plans for the next generation of their language model, promising significant improvements in reasoning and multimodal capabilities.",
+      "source": "TechCrunch",
+      "url": "https://example.com/news1",
+      "publishedAt": "2024-01-15T10:00:00Z",
+      "category": "Model Updates",
+      "tags": ["OpenAI", "GPT-5", "Language Models"]
+    },
+    {
+      "id": "2",
+      "title": "Google Introduces Gemini Ultra for Enterprise",
+      "summary": "Google launches enterprise-focused version of Gemini with enhanced security features and dedicated support for businesses.",
+      "source": "The Verge",
+      "url": "https://example.com/news2",
+      "publishedAt": "2024-01-14T15:30:00Z",
+      "category": "Product Launch",
+      "tags": ["Google", "Gemini", "Enterprise AI"]
+    },
+    {
+      "id": "3",
+      "title": "New Study Shows AI Impact on Software Development Productivity",
+      "summary": "Research indicates 40% productivity increase in software development teams using AI coding assistants.",
+      "source": "MIT Technology Review",
+      "url": "https://example.com/news3",
+      "publishedAt": "2024-01-13T09:00:00Z",
+      "category": "Research",
+      "tags": ["Productivity", "Software Development", "AI Tools"]
+    }
+  ],
+  "lastUpdated": "2024-01-15T12:00:00Z"
+}
