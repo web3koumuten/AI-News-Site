@@ -1,0 +1,33 @@
+<!-- WordPressページに貼り付けるコード -->
+<style>
+.ai-news-iframe-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.ai-news-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* モバイル対応 */
+@media (max-width: 768px) {
+    .ai-news-iframe-container {
+        height: 150vh;
+    }
+}
+</style>
+
+<div class="ai-news-iframe-container">
+    <iframe 
+        src="/ai-news/" 
+        class="ai-news-iframe"
+        scrolling="yes">
+    </iframe>
+</div>

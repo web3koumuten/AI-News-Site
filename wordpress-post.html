@@ -1,0 +1,308 @@
+<!-- AI最新ニュースセクション -->
+<style>
+.ai-news-wrapper * {
+    box-sizing: border-box !important;
+}
+
+.ai-news-wrapper {
+    font-family: 'Noto Sans JP', sans-serif !important;
+    background-color: #f9fafb !important;
+    padding: 2rem !important;
+    margin: -2rem !important;
+}
+
+.ai-news-container {
+    max-width: 1152px !important;
+    margin: 0 auto !important;
+    padding: 0 1rem !important;
+}
+
+.ai-news-header {
+    text-align: center !important;
+    margin-bottom: 3rem !important;
+}
+
+.ai-news-title {
+    font-size: 2.25rem !important;
+    font-weight: 700 !important;
+    color: #1f2937 !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.2 !important;
+}
+
+.ai-news-title i {
+    color: #3b82f6 !important;
+    margin-right: 0.75rem !important;
+}
+
+.ai-news-date {
+    font-size: 1.125rem !important;
+    color: #4b5563 !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.ai-news-subtitle {
+    font-size: 0.875rem !important;
+    color: #6b7280 !important;
+}
+
+.ai-news-section {
+    margin-bottom: 3rem !important;
+}
+
+.ai-news-section-header {
+    display: flex !important;
+    align-items: center !important;
+    margin-bottom: 1.5rem !important;
+}
+
+.ai-news-section-icon {
+    width: 24px !important;
+    height: 24px !important;
+    margin-right: 12px !important;
+}
+
+.ai-news-section-title {
+    font-size: 1.5rem !important;
+    font-weight: 700 !important;
+    color: #1f2937 !important;
+    margin: 0 !important;
+}
+
+.ai-news-grid {
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+    gap: 1.5rem !important;
+}
+
+.ai-news-card {
+    background-color: #ffffff !important;
+    border-radius: 0.5rem !important;
+    padding: 1.5rem !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+    transition: all 0.3s ease !important;
+    border-left: 4px solid transparent !important;
+}
+
+.ai-news-card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+    transform: translateY(-2px) !important;
+}
+
+.ai-news-card.category-enterprise {
+    border-left-color: #ef4444 !important;
+}
+
+.ai-news-card.category-tools {
+    border-left-color: #10b981 !important;
+}
+
+.ai-news-card.category-legal {
+    border-left-color: #8b5cf6 !important;
+}
+
+.ai-news-card.category-adoption {
+    border-left-color: #3b82f6 !important;
+}
+
+.ai-news-card.category-market {
+    border-left-color: #f59e0b !important;
+}
+
+.ai-news-card-header {
+    display: flex !important;
+    align-items: flex-start !important;
+    margin-bottom: 1rem !important;
+}
+
+.ai-news-card-icon {
+    margin-right: 0.75rem !important;
+    margin-top: 0.25rem !important;
+    flex-shrink: 0 !important;
+}
+
+.ai-news-card-content {
+    flex: 1 !important;
+}
+
+.ai-news-card-title {
+    font-size: 1.125rem !important;
+    font-weight: 600 !important;
+    color: #1f2937 !important;
+    margin-bottom: 0.5rem !important;
+    line-height: 1.4 !important;
+}
+
+.ai-news-card-text {
+    color: #4b5563 !important;
+    font-size: 0.875rem !important;
+    margin-bottom: 0.75rem !important;
+    line-height: 1.5 !important;
+}
+
+.ai-news-card-footer {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.ai-news-source-link {
+    color: #3b82f6 !important;
+    font-size: 0.875rem !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+}
+
+.ai-news-source-link:hover {
+    color: #2563eb !important;
+    text-decoration: underline !important;
+}
+
+.ai-news-timestamp {
+    color: #9ca3af !important;
+    font-size: 0.75rem !important;
+}
+
+.ai-news-card-image {
+    width: 100% !important;
+    height: 8rem !important;
+    object-fit: cover !important;
+    border-radius: 0.5rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.ai-news-footer {
+    text-align: center !important;
+    padding-top: 2rem !important;
+    border-top: 1px solid #e5e7eb !important;
+    margin-top: 3rem !important;
+}
+
+.ai-news-footer-text {
+    color: #6b7280 !important;
+    font-size: 0.875rem !important;
+}
+
+.ai-news-footer-note {
+    color: #9ca3af !important;
+    font-size: 0.75rem !important;
+    margin-top: 0.5rem !important;
+}
+
+/* アイコンカラー */
+.icon-red { color: #ef4444 !important; }
+.icon-green { color: #10b981 !important; }
+.icon-purple { color: #8b5cf6 !important; }
+.icon-blue { color: #3b82f6 !important; }
+.icon-yellow { color: #f59e0b !important; }
+</style>
+
+<div class="ai-news-wrapper">
+    <div class="ai-news-container">
+        <!-- Header -->
+        <div class="ai-news-header">
+            <h1 class="ai-news-title">
+                <i class="fas fa-robot"></i>
+                24時間以内の生成AI最新ニュース
+            </h1>
+            <p class="ai-news-date">2025年6月30日</p>
+            <p class="ai-news-subtitle">過去24時間以内に発表・報道された重要ニュースを厳選</p>
+        </div>
+
+        <!-- 企業動向・人材争奪戦 -->
+        <div class="ai-news-section">
+            <div class="ai-news-section-header">
+                <i class="fas fa-building icon-red ai-news-section-icon"></i>
+                <h2 class="ai-news-section-title">企業動向・人材争奪戦</h2>
+            </div>
+            
+            <div class="ai-news-grid">
+                <div class="ai-news-card category-enterprise">
+                    <div class="ai-news-card-header">
+                        <i class="fas fa-users icon-red ai-news-card-icon"></i>
+                        <div class="ai-news-card-content">
+                            <h3 class="ai-news-card-title">NVIDIA関係者、10億ドル超の株式売却</h3>
+                            <p class="ai-news-card-text">過去1年間で10億ドル超を売却。今月だけで5億ドル以上。CEO Jensen Huang氏も9月以来初めて株式売却を実行。AI熱狂でNVIDIA株が史上最高値を更新する中での大量売却。</p>
+                            <div class="ai-news-card-footer">
+                                <a href="https://www.reuters.com/business/nvidia-insiders-sold-over-1-billion-stock-amid-market-surge-ft-reports-2025-06-29/" class="ai-news-source-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> Reuters
+                                </a>
+                                <span class="ai-news-timestamp">6月29日 16:29</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-news-card category-enterprise">
+                    <div class="ai-news-card-header">
+                        <i class="fas fa-microchip icon-red ai-news-card-icon"></i>
+                        <div class="ai-news-card-content">
+                            <h3 class="ai-news-card-title">OpenAI、GoogleのAIチップ使用開始</h3>
+                            <p class="ai-news-card-text">OpenAIがNvidiaへの依存を減らすため、GoogleのTPU（Tensor Processing Units）をChatGPTなどの製品に使用開始。初めて非Nvidia製チップを本格活用。</p>
+                            <div class="ai-news-card-footer">
+                                <a href="https://www.itmedia.co.jp/business/articles/2506/30/news099.html" class="ai-news-source-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> ITmedia
+                                </a>
+                                <span class="ai-news-timestamp">6月30日</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 新AIツール・サービス -->
+        <div class="ai-news-section">
+            <div class="ai-news-section-header">
+                <i class="fas fa-tools icon-green ai-news-section-icon"></i>
+                <h2 class="ai-news-section-title">新AIツール・サービス</h2>
+            </div>
+            
+            <div class="ai-news-grid">
+                <div class="ai-news-card category-tools">
+                    <img src="https://i.gzn.jp/img/2025/06/30/runway-ai-movie-festival-aiff-2025/00_m.jpg" alt="Runway AI" class="ai-news-card-image">
+                    <div class="ai-news-card-header">
+                        <i class="fas fa-gamepad icon-green ai-news-card-icon"></i>
+                        <div class="ai-news-card-content">
+                            <h3 class="ai-news-card-title">Runway「Game Worlds」発表</h3>
+                            <p class="ai-news-card-text">30億ドル規模のRunwayが新プラットフォーム「Game Worlds」を発表。文章で指定するだけでテキストアドベンチャーゲームを自動生成できる。ゲーム業界への本格参入。</p>
+                            <div class="ai-news-card-footer">
+                                <a href="https://innovatopia.jp/ai/ai-news/59001/" class="ai-news-source-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> innovaTopia
+                                </a>
+                                <span class="ai-news-timestamp">6月30日</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ai-news-card category-tools">
+                    <div class="ai-news-card-header">
+                        <i class="fas fa-user-md icon-green ai-news-card-icon"></i>
+                        <div class="ai-news-card-content">
+                            <h3 class="ai-news-card-title">ユーザベース「Speeda AI Agent」発表</h3>
+                            <p class="ai-news-card-text">市場調査や競合分析のための高度なタスクを自律的に遂行する、経済情報に特化したAIエージェント。3,000社超の企業データベースを活用。NewsPicksとも連携予定。</p>
+                            <div class="ai-news-card-footer">
+                                <a href="https://prtimes.jp/main/html/rd/p/000000269.000010548.html" class="ai-news-source-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> PR TIMES
+                                </a>
+                                <span class="ai-news-timestamp">6月30日 09:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="ai-news-footer">
+            <p class="ai-news-footer-text">
+                <i class="fas fa-clock"></i>
+                最終更新: 2025年6月30日 18:00 JST
+            </p>
+            <p class="ai-news-footer-note">
+                本ページの情報は各報道機関・企業の公式発表を基に作成されています
+            </p>
+        </div>
+    </div>
+</div>

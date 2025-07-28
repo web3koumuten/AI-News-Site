@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤖 24時間以内の生成AI最新ニュース</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+        }
+        .category-icon {
+            width: 24px;
+            height: 24px;
+            margin-right: 12px;
+        }
+        .news-card {
+            transition: all 0.3s ease;
+            border-left: 4px solid transparent;
+        }
+        .news-card:hover {
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .category-enterprise { border-left-color: #EF4444; }
+        .category-tools { border-left-color: #10B981; }
+        .category-legal { border-left-color: #8B5CF6; }
+        .category-adoption { border-left-color: #3B82F6; }
+        .category-market { border-left-color: #F59E0B; }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <div class="container mx-auto px-4 py-8 max-w-6xl">
+        <!-- Navigation -->
+        <nav class="mb-8">
+            <a href="../index.html" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+                <i class="fas fa-arrow-left mr-2"></i>
+                アーカイブに戻る
+            </a>
+        </nav>
+        
+        <!-- Header -->
+        <div class="text-center mb-12">
+            <h1 class="text-4xl font-bold text-gray-800 mb-4">
+                <i class="fas fa-robot text-blue-500 mr-3"></i>
+                24時間以内の生成AI最新ニュース
+            </h1>
+            <p class="text-lg text-gray-600 mb-2">2025年6月30日</p>
+            <p class="text-sm text-gray-500">過去24時間以内に発表・報道された重要ニュースを厳選</p>
+        </div>
+
+        <!-- 企業動向・人材争奪戦 -->
+        <div class="mb-12">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-building text-red-500 category-icon"></i>
+                <h2 class="text-2xl font-bold text-gray-800">企業動向・人材争奪戦</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- MetaがOpenAI研究者引き抜き -->
+                <div class="news-card category-enterprise bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-users text-red-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">NVIDIA関係者、10億ドル超の株式売却</h3>
+                            <p class="text-gray-600 text-sm mb-3">過去1年間で10億ドル超を売却。今月だけで5億ドル以上。CEO Jensen Huang氏も9月以来初めて株式売却を実行。AI熱狂でNVIDIA株が史上最高値を更新する中での大量売却。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="https://www.reuters.com/business/nvidia-insiders-sold-over-1-billion-stock-amid-market-surge-ft-reports-2025-06-29/" class="text-blue-500 hover:text-blue-700 text-sm font-medium" target="_blank">
+                                    <i class="fas fa-external-link-alt mr-1"></i>Reuters
+                                </a>
+                                <span class="text-gray-400 text-xs">6月29日 16:29</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OpenAI、GoogleのAIチップ使用開始 -->
+                <div class="news-card category-enterprise bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-microchip text-red-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">OpenAI、GoogleのAIチップ使用開始</h3>
+                            <p class="text-gray-600 text-sm mb-3">OpenAIがNvidiaへの依存を減らすため、GoogleのTPU（Tensor Processing Units）をChatGPTなどの製品に使用開始。あまでNvidia製チップを本格活用。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="https://www.itmedia.co.jp/business/articles/2506/30/news099.html" class="text-blue-500 hover:text-blue-700 text-sm font-medium" target="_blank">
+                                    <i class="fas fa-external-link-alt mr-1"></i>ITmedia
+                                </a>
+                                <span class="text-gray-400 text-xs">6月30日</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 新AIツール・サービス -->
+        <div class="mb-12">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-tools text-green-500 category-icon"></i>
+                <h2 class="text-2xl font-bold text-gray-800">新AIツール・サービス</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <!-- Runway「Game Worlds」発表 -->
+                <div class="news-card category-tools bg-white rounded-lg p-6 shadow-md">
+                    <img src="https://i.gzn.jp/img/2025/06/30/runway-ai-movie-festival-aiff-2025/00_m.jpg" alt="Runway AI" class="w-full h-32 object-cover rounded-lg mb-4">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-gamepad text-green-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">Runway「Game Worlds」発表</h3>
+                            <p class="text-gray-600 text-sm mb-3">30億ドル規模のRunwayが新プラットフォーム「Game Worlds」を発表。文章で指定するだけでテキストアドベンチャーゲームを自動生成できる。ゲーム業界への本格参入。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="https://innovatopia.jp/ai/ai-news/59001/" class="text-blue-500 hover:text-blue-700 text-sm font-medium" target="_blank">
+                                    <i class="fas fa-external-link-alt mr-1"></i>innovaTopia
+                                </a>
+                                <span class="text-gray-400 text-xs">6月30日</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AI外科手術システム「NuLMiL」 -->
+                <div class="news-card category-tools bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-user-md text-green-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">ユーザベース「Speeda AI Agent」発表</h3>
+                            <p class="text-gray-600 text-sm mb-3">市場調査や競合分析のための高度なタスクを自律的に遂行する、経済情報に特化したAIエージェント。3,000社超の企業データベースを活用。NewsPicksとも連携予定。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="https://prtimes.jp/main/html/rd/p/000000269.000010548.html" class="text-blue-500 hover:text-blue-700 text-sm font-medium" target="_blank">
+                                    <i class="fas fa-external-link-alt mr-1"></i>PR TIMES
+                                </a>
+                                <span class="text-gray-400 text-xs">6月30日 09:00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RecCloud AI文字起こし -->
+                <div class="news-card category-tools bg-white rounded-lg p-6 shadow-md">
+                    <img src="https://prcdn.freetls.fastly.net/release_image/28597/76/28597-76-716e1886b5118077aef95699e205aa4b-1520x720.jpg?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff" alt="RecCloud" class="w-full h-32 object-cover rounded-lg mb-4">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-microphone text-green-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">RecCloud AI文字起こし機能アップデート</h3>
+                            <p class="text-gray-600 text-sm mb-3">最大15名までの話者識別機能と6種類の要約テンプレート機能を追加。会議録、製品説明、ビジネス、スピーチなど用途別の要約が可能に。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="https://prtimes.jp/main/html/rd/p/000000076.000028597.html" class="text-blue-500 hover:text-blue-700 text-sm font-medium" target="_blank">
+                                    <i class="fas fa-external-link-alt mr-1"></i>PR TIMES
+                                </a>
+                                <span class="text-gray-400 text-xs">6月30日</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ノーコードAIアプリ開発 -->
+                <div class="news-card category-tools bg-white rounded-lg p-6 shadow-md">
+                    <img src="https://prcdn.freetls.fastly.net/release_image/133503/38/133503-38-fade5922a2c45dfbaa67f493c487a56c-1280x670.jpg?width=1950&height=1350&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff" alt="Dify" class="w-full h-32 object-cover rounded-lg mb-4">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-code text-green-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">ノーコード総合研究所、Dify MVP開発プラン開始</h3>
+                            <p class="text-gray-600 text-sm mb-3">最短4週間・50万円からAIアプリ開発が可能なサービスを開始。従来1,000万円規模・半年超を要した開発を圧倒的低コスト・短納期で実現。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="https://prtimes.jp/main/html/rd/p/000000038.000133503.html" class="text-blue-500 hover:text-blue-700 text-sm font-medium" target="_blank">
+                                    <i class="fas fa-external-link-alt mr-1"></i>PR TIMES
+                                </a>
+                                <span class="text-gray-400 text-xs">6月29日 16:33</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 法的・規制動向 -->
+        <div class="mb-12">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-gavel text-purple-500 category-icon"></i>
+                <h2 class="text-2xl font-bold text-gray-800">法的・規制動向</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-1 gap-6">
+                <div class="news-card category-legal bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-search text-purple-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">AI論文審査で「隠れた」の実判決</h3>
+                            <p class="text-gray-600 text-sm mb-3">著者が論文内に無断で生成AIのプロンプトに「著作権保護に該当しない」との判決で、AnthropicとMeta勝訴の判決でフェアユース（公正利用）と認定。AI学習に追い風、権利者の備訴は衰。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="https://www.nikkei.com/article/DGXZQOUC13BCW0T10C25A6000000/" class="text-blue-500 hover:text-blue-700 text-sm font-medium" target="_blank">
+                                    <i class="fas fa-external-link-alt mr-1"></i>日経新聞
+                                </a>
+                                <span class="text-gray-400 text-xs">6月29日 朝刊</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 企業活用・導入事例 -->
+        <div class="mb-12">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-building text-blue-500 category-icon"></i>
+                <h2 class="text-2xl font-bold text-gray-800">企業活用・導入事例</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="news-card category-adoption bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-graduation-cap text-blue-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">生成AI学習会を開催</h3>
+                            <p class="text-gray-600 text-sm mb-3">生成AIの基本的な仕組みや課題について学習会を約90人が参加。経営者なども含む多業し、AI技術の理解促進と適切な活用方法について議論。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="#" class="text-blue-500 hover:text-blue-700 text-sm font-medium">
+                                    <i class="fas fa-external-link-alt mr-1"></i>FNN
+                                </a>
+                                <span class="text-gray-400 text-xs">6月29日 13:03</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="news-card category-adoption bg-white rounded-lg p-6 shadow-md">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-chart-line text-blue-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">リコーエレメックス、AIエージェント導入</h3>
+                            <p class="text-gray-600 text-sm mb-3">リコーグループのリコーエレメックスが、AIエージェント搭載の予実管理クラウドシステム「Workday Adaptive Planning」を採用、業務効率化を推進。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="#" class="text-blue-500 hover:text-blue-700 text-sm font-medium">
+                                    <i class="fas fa-external-link-alt mr-1"></i>PR TIMES
+                                </a>
+                                <span class="text-gray-400 text-xs">6月29日</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 市場・投資動向 -->
+        <div class="mb-12">
+            <div class="flex items-center mb-6">
+                <i class="fas fa-chart-bar text-yellow-500 category-icon"></i>
+                <h2 class="text-2xl font-bold text-gray-800">市場・投資動向</h2>
+            </div>
+            
+            <div class="grid md:grid-cols-1 gap-6">
+                <div class="news-card category-market bg-white rounded-lg p-6 shadow-md">
+                    <img src="https://prcdn.freetls.fastly.net/release_image/133745/2/133745-2-e6622eb338bb3c6f71bb9468b3359dfe-2000x1000.png?width=1950&height=1350&quality=85%2C65&format=jpeg&auto=webp&fit=bounds&bg-color=fff" alt="NaLaLys" class="w-full h-40 object-cover rounded-lg mb-4">
+                    <div class="flex items-start mb-4">
+                        <i class="fas fa-yen-sign text-yellow-500 mr-3 mt-1"></i>
+                        <div>
+                            <h3 class="text-lg font-semibold text-gray-800 mb-2">NaLaLys、2.5億円の資金調達を実施</h3>
+                            <p class="text-gray-600 text-sm mb-3">AI熱の高まりを背景に、Nvidia内部関係者が過去1年間で10億ドル超相当の同社株を売却。株価上昇の恩恵を受ける動きが判明に。</p>
+                            <div class="flex items-center justify-between">
+                                <a href="https://prtimes.jp/main/html/rd/p/000000002.000133745.html" class="text-blue-500 hover:text-blue-700 text-sm font-medium" target="_blank">
+                                    <i class="fas fa-external-link-alt mr-1"></i>PR TIMES
+                                </a>
+                                <span class="text-gray-400 text-xs">6月30日 11:10</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="text-center pt-8 border-t border-gray-200">
+            <p class="text-gray-500 text-sm">
+                <i class="fas fa-clock mr-2"></i>
+                最終更新: 2025年6月30日 18:00 JST
+            </p>
+            <p class="text-gray-400 text-xs mt-2">
+                本ページの情報は各報道機関・企業の公式発表を基に作成されています
+            </p>
+        </div>
+
+        <!-- Footer Navigation -->
+        <nav class="flex justify-between items-center py-8 border-t">
+            <a href="2025-06-29.html" class="inline-flex items-center text-blue-600 hover:text-blue-800 font-medium">
+                <i class="fas fa-chevron-left mr-2"></i>
+                前日のニュース
+            </a>
+            <a href="../index.html" class="inline-flex items-center text-gray-600 hover:text-gray-800 font-medium">
+                <i class="fas fa-home mr-2"></i>
+                ホームへ戻る
+            </a>
+            <span class="text-gray-400">
+                <i class="fas fa-chevron-right mr-2"></i>
+                次のニュース
+            </span>
+        </nav>
+    </div>
+</body>
+</html>
